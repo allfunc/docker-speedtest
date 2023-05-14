@@ -1,0 +1,5 @@
+repositoryName=docker-speedtest
+repositoryOrgName=allfunc
+dockerImageName=speedtest
+dockerOrgName=allfunc
+terratest=allfunc/terratest
