@@ -109,4 +109,4 @@ workflows:
             - test
           matrix:
             parameters:
-              docker-tag: ["0.0.0"]
+              docker-tag: ["2.1.3"]

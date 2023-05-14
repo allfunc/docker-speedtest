@@ -7,15 +7,19 @@
 
 ## `GIT`
 
-- https://github.com/allfunc/docker-speedtest
+-   https://github.com/allfunc/docker-speedtest
 
 ## `Docker hub`
 
-- Docker Image: allfunc/speedtest
-- https://hub.docker.com/r/allfunc/speedtest
+-   Docker Image: allfunc/speedtest
+-   https://hub.docker.com/r/allfunc/speedtest
+
+## Speedtest cli
+
+-   https://github.com/sivel/speedtest-cli
 
 ## Usage
 
 ```
-
+docker run allfunc/speedtest
 ```
