@@ -2,6 +2,7 @@ package test
 
 import (
 	"testing"
+
 	"github.com/gruntwork-io/terratest/modules/docker"
 	"github.com/stretchr/testify/assert"
 )
@@ -17,7 +18,7 @@ func TestSmoke(t *testing.T) {
 	docker.Build(t, "../", buildOptions)
 
 	// website::tag::3:: Run the Docker image.
-	opts := &docker.RunOptions{Command: []string{"ls", "/"}}
+	opts := &docker.RunOptions{Command: []string{"--version"}}
 	output := docker.Run(t, tag, opts)
-	assert.Contains(t, output, "etc")
+	assert.Contains(t, output, "speedtest-cli")
 }
